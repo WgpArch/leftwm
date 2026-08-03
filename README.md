@@ -19,16 +19,15 @@ Dynamic Tiling Window Manager on Arch Linux with Polybar.
 
 ## 📖 Documentation & Installation
 
-For full installation instructions, keybinds, polybar configuration, and theming details, please visit the **[Official Documentation Website](https://wgparch.github.io/leftwm/)***
-# Gallery
+For full installation instructions, keybinds, polybar configuration, and theming details, please visit the **[Official Documentation Website](https://wgparch.github.io/leftwm/)**.
 
-A visual tour of the LeftWM setup.
+## 📸 Screenshots
 
-![Main Desktop](screenshots/leftwm_screenshot.png)
-![App Launcher](screenshots/leftwm_screenshot_000.png)
-![Calendar Widget](screenshots/leftwm_screenshot_001.png)
-![Weather Forecast](screenshots/leftwm_screenshot_002.png)
-![Power Menu](screenshots/leftwm_screenshot_003.png)
+![Main Desktop](docs/screenshots/leftwm_screenshot.png)
+![App Launcher](docs/screenshots/leftwm_screenshot_000.png)
+![Calendar](docs/screenshots/leftwm_screenshot_001.png)
+![Weather](docs/screenshots/leftwm_screenshot_002.png)
+![Power Menu](docs/screenshots/leftwm_screenshot_003.png)
 
 ## 🎨 Features
 
@@ -41,6 +40,6 @@ A visual tour of the LeftWM setup.
 ## 🚀 Quick Start
 
 1. Clone this repository
-2. Copy configs to `~/.config/`
+2. Copy configs to \`~/.config/\`
 3. Install dependencies (see documentation)
 4. Start LeftWM from your display manager
