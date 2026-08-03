@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Kill existing instances
+killall -q polybar
+killall -q sfwbar
+
+# Wait for processes to terminate
+while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
+
+# Set wallpaper
+feh --no-fehbg --bg-fill /home/wgparch/Pictures/ALNW/Taxigirl.jpg
+
+# Launch polybar
+~/.config/polybar1/launch.sh &
+
+# Optional: Start nm-applet if not already running
+if ! pgrep -x "nm-applet" > /dev/null; then
+    nm-applet &
+fi

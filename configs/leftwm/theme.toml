@@ -1,0 +1,4 @@
+border_width = 2
+default_border_color = "#C36C0F"
+floating_border_color = "#C36C0F"
+focus_border_color = "#C36C0F"

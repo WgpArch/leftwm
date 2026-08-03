@@ -1,0 +1,17 @@
+site_name: WgpArch LeftWM Config
+site_url: https://wgparch.github.io/leftwm/
+theme:
+  name: material
+  palette:
+    primary: amber
+    accent: deep orange
+  features:
+    - navigation.tabs
+    - navigation.expand
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Keybinds: keybinds.md
+  - Polybar & Scripts: polybar.md
+  - Look & Feel: theming.md
+  - Gallery: gallery.md
